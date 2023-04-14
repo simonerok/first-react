@@ -70,20 +70,30 @@ span {
   color: rgb(150, 206, 241);
 }
 
-.icon_section div {
+.iconContainer div {
   color: white;
   display: flex;
   gap: 0.5rem;
   padding-inline: 1rem;
 }
-.icon_section p {
+.iconContainer p {
   margin: 0px;
 }
 
-.icon_section {
+.icon_container {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
+}
+.icon_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.companiesContainer {
+  display: flex;
+  gap: 1rem;
 }
 
 /* MAIN */
@@ -107,4 +117,9 @@ main {
   max-height: 30vh;
   padding: 2rem;
   max-width: 70vw;
+}
+
+/* COPY companies */
+.companiesContainer {
+  color: whitesmoke;
 }
